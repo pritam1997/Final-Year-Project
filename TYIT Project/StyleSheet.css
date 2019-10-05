@@ -1,0 +1,150 @@
+﻿body
+{
+    background-color:rgb(60,60,60);    
+    margin: 0;
+}
+.header
+{    
+    margin:0;
+    padding: 40px;
+    border-radius:8px;
+    margin:5px 5px 0px 5px;
+    background-color:white;     
+    text-align:center;
+    color:DodgerBlue;
+     font-family: Aharoni;
+     text-decoration:none;
+     display:block;
+      font-size: x-large;   
+}
+h2 a
+{
+    color:DodgerBlue;
+}
+marquee
+{
+    
+    color:DodgerBlue;
+    padding :5px;
+
+}
+.column
+{
+    margin:5px;
+    margin-right:5px;
+    margin-left:300px;
+    background-color:white;
+    text-align:center;
+    border-radius:8px;
+    width:985px;
+    height:570px;
+}
+
+.side_col
+{
+    margin:0;  
+    width:300px;
+    border-radius:8px;
+    text-align:center;
+    margin:5px;
+    background-color:DodgerBlue;
+}
+
+ul
+{  
+    list-style-type:none;
+    padding:0;
+    margin:0;  
+    width:300px;
+    float:left;
+    overflow:auto;
+}
+
+
+li a
+{ 
+    margin: 5px;
+    margin-top:0px;
+    display: block;
+    color: Black;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color:DodgerBlue;   
+    border: 0;
+    color:white;
+    border-radius: 8px;
+    font-family: Aharoni;
+}
+img
+ {
+    margin-right:10px;
+    width:90%;
+    height:50%;
+    border-radius:20px;
+ }
+#ad
+{   
+    margin-left:5px;
+    margin-right:5px;
+    width:290px;
+    background-color:Dodgerblue;
+    border-radius: 8px;
+}
+li a:hover
+{
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+    color:white;
+    font-family: Aharoni;
+}
+
+
+.footer
+{ 
+    color:DodgerBlue;
+    text-align: center;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:0px;
+    background-color:white;
+    padding: 10px;
+    margin-bottom:5px;
+    border-radius: 8px; font-family: Times New Roman; font-size: Medium;
+}
+
+#table
+{
+    border:5px;
+    margin:0;
+    margin-top:1px;
+    margin-bottom:5px;
+}
+ .menu
+ {
+     margin-top:10px;
+ }
+ .main
+ {
+     width:100%;
+     height:100%;
+ }
+ .side
+ {
+     
+     width:100%;
+     height:100%;
+ }
+ .container
+ {
+      width:100%;
+     height:100%;
+ }
+.ad_container
+{
+    background-color:White;
+    margin-left:300px;
+    margin-Right:5px;
+    border-radius:5px;
+    height:100%;
+}

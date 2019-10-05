@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+
+<h2 class="header"><a href="welcome.aspx">Indian Railway Reservation</a></h2>
+   <div class="menu">
+               <ul>
+    <li><a href="SearchTrain.aspx">Search trains</a></li>
+    <li><a href="FareEnquiry.aspx">Fare Enquiry</a></li>
+    <li><a href="BookTicket.aspx">Book Tickets</a></li>
+    <li><a href="PNRstatus.aspx">PNR Status</a></li>
+    <li><a href="CancelTicket.aspx">Cancel Ticket</a></li>
+    <li><a href="PrintTicket.aspx">Print Ticket</a></li>
+        <img id="ad" src="images/trsbanner.gif" />
+  </ul>
+
+  </div>
+  <table id="table">
+  <tr>
+  <td class="column">
+                   
+              <asp:ContentPlaceHolder id="MainContentPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            
+            </td>
+            <td class="side_col">
+                        
+           
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+         
+          </td>
+          </tr>
+      </table>
+   
+    <div class="footer">
+         <h2>Copyright © 2018</h2>
+      </div>  
+      
+</body>
+</html>
